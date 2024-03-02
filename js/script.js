@@ -3,7 +3,7 @@
 const operation = prompt('Що ви хочете зробити?((add, sub, mult, div))');
 const numOne = parseFloat(prompt('Введіть перше число'));
 const numTwo = parseFloat(prompt('Введіть друге число'));
-let result;
+let result = null;
 
 
 switch (operation){
