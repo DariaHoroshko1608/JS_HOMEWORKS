@@ -1,137 +1,51 @@
 'use strict'
 
-const a = 20;
-const b = 2;
+const a = 9;
+const b = 3;
 
-//1
-switch (true){
-    case a === 0 :
-        console.log('Вірно');
-        break;
-    default:
-        console.log('Невірно');
-}
+// 1
+console.log(a === 0 ? 'Вірно' : 'Неправильно');
 
-//2
-switch (true){
-    case a > 0 :
-        console.log('Вірно');
-        break;
-    default:
-        console.log('Невірно');
-}
+// 2
+console.log(a > 0 ? 'Вірно' : 'Невірно');
 
-//3
-switch (true){
-    case a < 0 :
-        console.log('Вірно');
-        break;
-    default:
-        console.log('Невірно');
-}
+// 3
+console.log(a < 0 ? 'Вірно' : 'Невірно');
 
-//4
+// 4
+console.log(a >= 0 ? 'Вірно' : 'Неправильно');
 
-switch (true) {
-    case a >= 0:
-        console.log('Вірно');
-        break;
-    default:
-        console.log('Неправильно');
-}
+// 5
+console.log(a <= 0 ? 'Вірно' : 'Неправильно');
 
-//5
+// 6
+console.log(a !== 0 ? 'Вірно' : 'Невірно');
 
-switch (true) {
-    case a <= 0:
-        console.log('Вірно');
-        break;
-    default:
-        console.log('Неправильно');
-}
+// 7
+console.log(a === 'test' ? 'Вірно' : 'Неправильно');
 
-//6
+// 8
+console.log(a === 1 ? 'Вірно' : 'Невірно');
 
-switch (true) {
-    case a !== 0:
-        console.log('Вірно');
-        break;
-    default:
-        console.log('Невірно');
-}
+// 9
+console.log(a > 0 && a < 5 ? 'Вірно' : 'Невірно');
 
-//7
+// 10
 
-switch (true) {
-    case a === 'test':
-        console.log('Вірно');
-        break;
-    default:
-        console.log('Неправильно');
-}
+const resultOne = (a === 0 || a === 2) ? a + 7 : a / 10;
+console.log('Нове значення змінної a: ' + resultOne);
 
-//8
+// 11
+console.log((a > 2 && a < 11) || (b >= 6 && b < 14) ? 'Вірно' : 'Невірно');
 
-switch (true) {
-    case a === 1:
-        console.log('Вірно');
-        break;
-    default:
-        console.log('Невірно');
-}
+// 12
+console.log((a > 2 && a < 11) || (b >= 6 && b < 14) ? 'Вірно' : 'Невірно');
 
-//9
-
-switch (true) {
-    case a > 0 && a < 5:
-        console.log('Вірно');
-        break;
-    default:
-        console.log('Невірно');
-}
-
-//10
-
-let resultOne = null;
-
-switch (true) {
-    case (a <= 1 && b >= 3):
-        resultOne = a + b;
-        break;
-    default:
-        resultOne = a - b;
-        break;
-}
-
-console.log(resultOne);
-
-
-//11
-
-switch (true) {
-    case a <= 1 && b >= 3:
-        console.log(a + b);
-        break;
-    default:
-        console.log(a - b);
-}
-
-//12
-
-switch (true) {
-    case (a > 2 && a < 11) || (b >= 6 && b < 14):
-        console.log('Вірно');
-        break;
-    default:
-        console.log('Невірно');
-}
-
-//13
-
-const num = 1;
+// 13
+const number = 2;
 let result = null;
 
-switch (num) {
+switch (number) {
     case 1:
         result = 'зима';
         break;
@@ -145,7 +59,6 @@ switch (num) {
         result = 'осінь';
         break;
     default:
-        result = 'Невірне значення';
+        result = 'невідома пора року';
 }
-
-console.log(result);
+console.log('Результат: ' + result);
