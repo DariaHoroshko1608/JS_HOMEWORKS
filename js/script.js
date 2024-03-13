@@ -3,14 +3,14 @@
 //1
 
 const x = 10, y = 7;
-let operator = (x > y) ? "x більше за y" : "x не більше, ніж y";
+const operator = (x > y) ? "x більше за y" : "x не більше, ніж y";
 console.log(operator);
 
 //2
 
 const number = prompt('Введіть ціле число:')
-let length = Math.abs(number).toString().length;
-let sign = (number > 0) ? "позитивне" : (number < 0) ? "негативне" : "нуль";
+const length = Math.abs(number).toString().length;
+const sign = (number > 0) ? "позитивне" : (number < 0) ? "негативне" : "нуль";
 switch (length) {
     case 1:
         console.log("Число " + number + " є однозначне " + sign);
