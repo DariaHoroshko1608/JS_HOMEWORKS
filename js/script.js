@@ -3,7 +3,7 @@
 const userNumber = prompt("Введіть число:");
 
 if (!isNaN(userNumber) && userNumber !== null) {
-    let number = parseInt(userNumber);
+    const number = parseInt(userNumber);
     let suffix = null;
 
     if (number === 1) {
