@@ -1,21 +1,21 @@
 'use strict'
 
-const userNumber = prompt("Введіть число:");
+const numberUser = prompt("Введіть число:");
 
-if (!isNaN(userNumber) && userNumber !== null) {
-    const number = parseInt(userNumber);
-    let suffix = null;
+if (!isNaN(numberUser)) {
+    const number = parseInt(numberUser);
+    let yeards = null;
 
-    if (number === 1) {
-        suffix = "рік";
-    } else if (number >= 2 && number <= 4) {
-        suffix = "роки";
-    } else {
-        suffix = "років";
+    if (number === 0 || (number >= 5 && number <= 20) || (number % 10 >= 5 && number % 10 <= 9)) {
+        yeards = "років";
+    } else if (number === 1 || number % 10 === 1) {
+        yeards = "рік";
+    } else if ((number >= 2 && number <= 4) || (number % 10 >= 2 && number % 10 <= 4)) {
+        yeards = "роки";
     }
 
-    alert(number + " " + suffix);
+    alert(` ${number} ${yeards}.`);
 
 } else {
-    alert("Будь ласка, введіть коректне число!");
+    alert("Ви ввели не число.");
 }
