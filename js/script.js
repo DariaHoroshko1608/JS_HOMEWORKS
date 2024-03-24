@@ -1,6 +1,5 @@
 'use strict'
 
-// Константа сумування
 const add = (a, b) => {
     return a + b;
 };
