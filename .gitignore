@@ -4,3 +4,7 @@ node_modules
 DS_tore
 package-lock.json
 .eslintrc.js
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
