@@ -1,0 +1,24 @@
+{
+  "name": "js_home_works",
+  "version": "1.0.0",
+  "description": "Зареєструватися на https://github.com/ якщо у вас там немає аккаунта\r створити шаблон ДЗ як я показував на уроці\r в вашому репозиторії повинна бути тільки гілка main або master з файловою структурою котру я показував на уроці, інші гілки створювати не потрібно",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "Dasha Horoshko",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5"
+  }
+}
