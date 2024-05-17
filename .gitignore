@@ -2,5 +2,3 @@
 node_modules
 .vs_code
 DS_tore
-package-lock.json
-.eslintrc.js

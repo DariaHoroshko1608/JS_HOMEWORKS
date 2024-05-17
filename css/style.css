@@ -1,0 +1,25 @@
+.wrapper{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1200px;
+}
+.categories, .products, .product-info {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.products, .product-info {
+    display: none;
+}
