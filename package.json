@@ -1,0 +1,20 @@
+{
+  "name": "js_home_works",
+  "version": "1.0.0",
+  "description": "Переписати TodoList так як я написав на уроці з використанням MVC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0"
+  }
+}
