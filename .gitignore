@@ -4,3 +4,4 @@ node_modules
 DS_tore
 package-lock.json
 .eslintrc.js
+eslint.config.mjs
