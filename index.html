@@ -1,12 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="UTF-8" />
     <title>index</title>
   </head>
   <body>
-    <p></p>
-
+  <label for="postId">Ідентифікатор поста:</label>
+  <input id="postId" type="number" min="1" max="100" />
+  <button id="searchButton">Пошук поста</button>
+  <div id="postContainer"></div>
     <script src="./js/script.js"></script>
   </body>
 </html>
